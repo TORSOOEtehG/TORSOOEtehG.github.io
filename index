@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Nice to meet you, I am <span id="my-name">TORSOO</span></h1>
+    <p>
+        Je suis TORSOO, un jeune développeur web passionné par la création de sites et d'applications innovantes. Mon objectif est de fournir des solutions numériques efficaces et esthétiques pour répondre aux besoins de mes clients. Grâce à ma formation en développement web et à ma curiosité constante pour les nouvelles technologies, je suis constamment à la recherche de nouvelles façons de repousser les limites de la création en ligne. Mon amour pour la programmation et ma volonté de perfectionner mes compétences me motivent à rester constamment à jour avec les dernières tendances et les meilleures pratiques du secteur. 
+        <br>
+        <br>
+        Je suis TORSOO, jeune développeur web, prêt à transformer vos idées en réalité en ligne.
+        <br>
+        <br>
+        Contact me 
+    </p>
+    <hr>
+    <h3 class="competences">Skills</h3>
+    <div class="text1-decor">
+        <h2 class="text1">HTML</h2>
+        <p>One year experience</p>
+    </div>
+    <div class="text2-decor">
+        <h2 class="text2">CSS</h2>
+        <P>Six months experience</P>
+    </div>
+    <div class="text3-decor">
+        <h2 class="text3">Graphic design</h2>
+        <p>Two months experience</p>
+    </div>
+    <h3 class="Projects">Projects</h3>
+    <div class="image">
+        <img src="image projet/developpeur.jpg" width="400" height="400" alt="developpeur">
+    </div>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <form action="" method="get" class="form-portofolio">
+        <div class="form-name">
+          <label for="name">Enter your name: </label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <div class="form-mail">
+          <label for="email">Enter your email: </label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <div class="commentaire">
+            <label for="commentaire">Comment puissions-nous vous aider ?</label>
+            <textarea name="commentaire" id="commentaire" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        
+        <div class="envoyer">
+            <input type="submit" value="envoyer"/>
+        </div>
+          
+      </form>
+    </body>
+</html>
